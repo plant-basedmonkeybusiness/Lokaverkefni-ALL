@@ -10,6 +10,15 @@ h1{
 h3{
     font-size: 24px;
 }
+
+h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6B5222;
+    margin: 8px 0;
+    
+}
 .navbar{
     width: 95%;
     height: 80px;
@@ -104,9 +113,96 @@ h3{
     padding-bottom: 32px;
 }
 /*CARDS*/
-.main{
+#main{
     width: 80%;
     margin: 0 auto;
     display:flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 33%;
+    height: 422px;
+    padding: 16px;
+}
+
+.plant-img {
+    width: 100%;
+}
+
+#txt-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sci-name,
+.sciName {
+    font-style: italic;
+}
+
+.description {
+    padding: 8px;
+}
+
+/* CMS */
+
+.container-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.container .card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .card .sci-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+.sci-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#img-input input {
+    width: 150px;
+    
+}
+
+.card-input {
+    padding-bottom: 8px;
+}
+
+.sendBtn,
+#searchBtn {
+    width: 160px;
+    height: 40px;
+    background-color: #6b5222;
+    color: #fff;
+    font-weight: 600;
+}
+
+#searchBtn {
+    margin-left: 32px;
 }
